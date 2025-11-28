@@ -28,7 +28,6 @@ public class Employe extends Personne {
         this.dateEmbauche = dateEmbauche;
     }
 
-    // Méthode demandée : sera redéfinie dans les sous-classes
     public String obtenirRole() {
         return "Employé";
     }
